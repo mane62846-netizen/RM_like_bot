@@ -469,7 +469,7 @@ def like():
     key = request.args.get("key")
     ip = request.remote_addr
 
-    if key != "DRIFT":
+    if key != "ZEXXY":
         return jsonify({"error": "Invalid API key"}), 403
     if not uid or not server:
         return jsonify({"error": "UID and server_name required"}), 400
@@ -540,7 +540,7 @@ def like():
 
 @app.route('/reset-limit')
 def reset_limit():
-    if request.args.get("key") != "DRIFT":
+    if request.args.get("key") != "ZEXXY":
         return jsonify({"error": "Invalid key"}), 403
     ip = request.remote_addr
     tracker[ip] = [0, time.time()]
