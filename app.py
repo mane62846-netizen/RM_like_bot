@@ -47,7 +47,7 @@ URLS = {
     "BD":  "https://clientbp.ppmainecoonghj.com",
     "RU":  "https://client.ru.freefiremobile.com",
 }
-JWT_API = "https://jwt-ob55-api.onrender.com/token"
+JWT_API = "https://jwt-api-seven-xi.vercel.app/token"
 
 UA = "UnityPlayer/2018.4.12f1 (UnityWebRequest/1.0, libcurl/8.5.0-DEV)"
 XGA_SV = "1789556611"
